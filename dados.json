@@ -1,19 +1,16 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "nome": "Nome do Usuário",
+      "email": "usuario@email.com",
+      "senha": "senha123"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nome": "a",
+      "email": "hpbenitez7@gmail.com",
+      "senha": "a",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
