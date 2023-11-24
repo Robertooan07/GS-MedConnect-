@@ -50,7 +50,7 @@ export default function Login() {
 
     // Fetch dados da API
     try {
-      const response = await fetch('http://localhost:3000/users');
+      const response = await fetch('http://localhost:7000/users');
       if (!response.ok) {
         throw new Error('Erro ao buscar usuários.');
       }

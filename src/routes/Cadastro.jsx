@@ -32,7 +32,7 @@ function Cadastro() {
   // Função para verificar se o e-mail já existe na base de dados
   const verifyUserExists = async (emailToCheck) => {
     try {
-      const response = await fetch('http://localhost:3000/users');
+      const response = await fetch('http://localhost:7000/users');
       if (!response.ok) {
         throw new Error('Erro ao buscar usuários.');
       }
@@ -69,7 +69,7 @@ function Cadastro() {
     };
 
     try {
-      const response = await fetch('http://localhost:3000/users', {
+      const response = await fetch('http://localhost:7000/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
