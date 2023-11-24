@@ -30,7 +30,7 @@ export default function Header({ children }) {
             <div className="header-user-info">
                 {userToken && ( // Exibe as informações do usuário apenas se estiver logado
                   <>
-                    <span>Olá! Seja bem-vindo(a) {userName}</span>
+                    <span>Seja bem-vindo(a) {userName}</span>
                     <b><span>{userMail}</span></b>
                   </>
                 )}

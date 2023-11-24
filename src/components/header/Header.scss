@@ -1,4 +1,4 @@
-$button-bg: #0099ff;
+$button-bg: #4c45e1;
 $button-bg-hover: #b4d2ff;
 * {
     margin: 0;
@@ -16,7 +16,7 @@ $button-bg-hover: #b4d2ff;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #2367e6;
+        background-color: #4c45e1;
         padding: 0;
         width: 100%; 
         
@@ -43,7 +43,7 @@ $button-bg-hover: #b4d2ff;
                 padding-bottom: 0;
         
             #logoutButton {
-                background-color: $button-bg;
+                background-color: $button-bg#4c45e1;
                 color: rgb(0, 0, 0);
                 border: none;
                 padding: 5px 10px;
