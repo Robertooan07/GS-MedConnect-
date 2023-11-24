@@ -66,7 +66,7 @@ export default function Login() {
         history('/');
 
       } else {
-        toast.error("Login não encontrado, verifique suas informações.");
+        toast.error("Login não encontrado, verifique suas informações ou se tem cadastro.");
       }
     } catch (error) {
       toast.error("Erro ao autentificar o login: " + error.message);
