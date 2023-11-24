@@ -15,7 +15,7 @@ export default function Header({ children }) {
         sessionStorage.removeItem('userMail');
         sessionStorage.removeItem('userName');
         navigate('/login');
-        toast("Obrigado por utilizar o hAppVida Fitness. Volte sempre!");
+        toast("Obrigado por visitar o MedConnect!");
     }
 
     // Verifica se o usuário está deslogado
