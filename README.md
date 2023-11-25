@@ -21,47 +21,22 @@
   </ul>
   <h2>Tecnologias Utilizadas</h2>
   <ul>
-    <li>Python</li>
-    <li>Flask para o Backend</li>
+    <li>json para o Backend</li>
     <li>HTML, CSS, JavaScript para o Frontend</li>
   </ul>
   <h2>Começando</h2>
   <h3>Passos para Configurar e Utilizar o MedConnect</h3>
-  <h4>Dependências Python</h4>
-  <p>Certifique-se de ter as seguintes dependências Python instaladas antes de utilizar o MedConnect:</p>
-  <pre><code>pip install flask</code></pre>
-  <ol>
-    <li><strong>Configurar o Backend:</strong>
-      <ul>
-        <li>Vá para a pasta <code>backend</code>.</li>
-        <li>Execute o arquivo <code>app.py</code>.</li>
-      </ul>
-    </li>
-    <li><strong>Configurar o Frontend:</strong>
-      <ul>
-        <li>Execute os seguintes comandos em um terminal:</li>
-      </ul>
-      <pre><code>cd frontend
-npm install
-npm run dev</code></pre>
+  <p>Certifique-se de fazer o passo a passo para utilizar o MedConnect:</p>
+  <pre><code>npm install</code></pre>
+   <pre><code>npm run dev</code></pre>
     </li>
   </ol>
-  <h3>Após configurar o ambiente</h3>
-  <h5>Após completar esses passos, acesse o sistema de agendamento de consultas.</h5>
-  <h2>Contribuidores</h2>
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>RM</th>
-    <th>Turma</th>
-  </tr>
-  <tr>
-    <td>[Nome do Contribuidor]</td>
-    <td>[RM do Contribuidor]</td>
-    <td>[Turma do Contribuidor]</td>
-  </tr>
-</table>
-  <h2>License</h2>
-  <p>Código aberto sob a licença MIT.</p>
+  <h3>Após fazer esseses passos no terminal</h3>
+  <h5>Para fazer login, antes é necessario realizar um cadastro com nome, email e senha</h5>
+  <h3>Aviso!!</h3>
+  <h5>Não é necessario dar o comando "npm run backend", ele será executado automaticamente com o "npm run dev"</h5>
+  <h2>Contribuidores</h2><br>
+  <h4>Mauricio santos Rodrigues RM551076</h4>
+  <h4>Roberto Olveira Azzalin Navas- RM551460</h4>
 </body>
 </html>
