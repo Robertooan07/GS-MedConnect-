@@ -21,7 +21,7 @@
   </ul>
   <h2>Tecnologias Utilizadas</h2>
   <ul>
-    <li>json para o Backend</li>
+    <li>Json para o Backend</li>
     <li>HTML, CSS, JavaScript para o Frontend</li>
   </ul>
   <h2>Começando</h2>
@@ -33,6 +33,7 @@
   </ol>
   <h3>Após fazer esseses passos no terminal</h3>
   <h5>Para fazer login, antes é necessario realizar um cadastro com nome, email, senha e aceitar os temos</h5>
+  <h5>OBS: Lembre de utilizar os mesmos dados cadastrados de forma identica para fazer login</h5>
   <h3>Aviso!!</h3>
   <h5>Não é necessario dar o comando "npm run backend", ele será executado automaticamente com o "npm run dev"</h5>
   <h2>Contribuidores</h2>

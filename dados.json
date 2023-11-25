@@ -11,6 +11,12 @@
       "email": "hpbenitez7@gmail.com",
       "senha": "a",
       "id": 2
+    },
+    {
+      "nome": "roberto",
+      "email": "123@gmail.com",
+      "senha": "12",
+      "id": 3
     }
   ]
 }
