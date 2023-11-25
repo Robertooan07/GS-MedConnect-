@@ -32,7 +32,7 @@
     </li>
   </ol>
   <h3>Após fazer esseses passos no terminal</h3>
-  <h5>Para fazer login, antes é necessario realizar um cadastro com nome, email e senha</h5>
+  <h5>Para fazer login, antes é necessario realizar um cadastro com nome, email, senha e aceitar os temos</h5>
   <h3>Aviso!!</h3>
   <h5>Não é necessario dar o comando "npm run backend", ele será executado automaticamente com o "npm run dev"</h5>
   <h2>Contribuidores</h2>
