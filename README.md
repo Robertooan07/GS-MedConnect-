@@ -37,7 +37,7 @@
   <h3>Aviso!!</h3>
   <h5>Não é necessario dar o comando "npm run backend", ele será executado automaticamente com o "npm run dev"</h5>
   <h2>Programadores</h2>
-  <h4>Mauricio santos Rodrigues RM551076</h4>
-  <h4>Roberto Olveira Azzalin Navas- RM551460</h4>
+  <h4>Mauricio santos Rodrigues - RM551076</h4>
+  <h4>Roberto Olveira Azzalin Navas - RM551460</h4>
 </body>
 </html>
