@@ -6,7 +6,7 @@ export default function Rodape() {
     <div className="footer-container">
       <footer>
         <div className="footer-content">
-          <p>&copy; 2023 - Roberto Oliveira RM551460 e Mauricio Santos RM551076 — Uma parceria <a href='https://www.fiap.com.br' target='_blank'> FIAP </a> e <a href='https://www.hapvida.com.br/site/' target='_blank'>Hapvida</a> — <a href='https://github.com/Robertooan07/GS-MedConnect-front-e-Web' target='_blank'>Acesse nosso repositório</a></p>
+          <p>&copy; 2023 - Roberto Oliveira RM551460 e Mauricio Santos RM551076 — Uma parceria <a href='https://www.fiap.com.br' target='_blank'> FIAP </a> e <a href='https://www.hapvida.com.br/site/' target='_blank'>Hapvida</a> <a href='https://www.gndi.com.br' target='_blank'>NotreDame Imtermédica</a> — <a href='https://github.com/Robertooan07/GS-MedConnect-front-e-Web' target='_blank'>Acesse nosso repositório</a></p>
 
           <p>Todos os direitos reservados.</p>
         </div>
