@@ -43,7 +43,6 @@ export default function Login() {
       // Gera a hash SHA-256 do email
       const hashEmail = CryptoJS.SHA256(email).toString();
 
-      // Usa os primeiros 15 caracteres da hash como token
       return hashEmail.substring(0, 15);
     }
 
@@ -58,10 +57,10 @@ export default function Login() {
       const user = users.find(user => user.email === email.trim() && user.senha === senha.trim());
 
       if (user) {
-        const token = gerarToken();
+        const token = gerarToken(); // Guardar os dados do usuário no storage
         sessionStorage.setItem('userToken', token);
         sessionStorage.setItem('userName', user.nome);
-        sessionStorage.setItem('userMail', user.email);// Guardar informações do usuário no session storage
+        sessionStorage.setItem('userMail', user.email);
         toast.success("Login concluido! Bem-vindo(a) " + user.nome + "!");
         history('/');
 
@@ -72,14 +71,14 @@ export default function Login() {
       toast.error("Erro ao autentificar o login: " + error.message);
     }
   };
-
+  //painel principal de login 
   return (
     <>
 
       <h1>Login</h1>
 
       <form>
-        <label htmlFor="loginPassword">Email:</label>
+        <label htmlFor="loginPassword">Email:</label> 
         <input type="text" placeholder="Digite seu email" value={email} onChange={handleEmailChange} />
         <br />
 
